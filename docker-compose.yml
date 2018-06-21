@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  conta-corrente:
+    image: ${DOCKER_REGISTRY}contacorrente
+    build:
+      context: .
+      dockerfile: conta-corrente/Dockerfile
